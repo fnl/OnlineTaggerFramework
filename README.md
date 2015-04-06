@@ -16,5 +16,5 @@ Those annotations commonly are expected to be in the "OTPL_" (one token per line
 For example, the line `Nouns noun NN B-NP O` might annotate the token "Noun" (verbatim, as found in the input text) with the lemma "noun", the PoS-tag "NN", the BIO-chunk "B-NP" and the BIO-NER-tag "O" (outside any entity mention).
 The exact structure and contents of that line can be configured, just as with the built-in GenericTagger.
 
-Please clone the tagger from GitHub (`git clone https://github.com/fnl/OnlineTaggerFramework`) into your local CREOLE plugin directory.
-Then you can load the plugin with the CREOLE Plugin Manager and once you create a new "GenericOnlineTagger" processing resource, you will be asked to supply the mentioned configuration data: the full path to the tagger binary, the directory to run in (if any), and the runtime flags and arguments (if any).
+Please clone this plugin from GitHub (`git clone https://github.com/fnl/OnlineTaggerFramework`) into your local CREOLE plugin directory.
+Then you can load it with the CREOLE Plugin Manager and once you create a new "GenericOnlineTagger" processing resource, you will be asked to supply the basic configuration data: the full path to the tagger binary, the directory to run in (if any), and the runtime flags and arguments (if any).
