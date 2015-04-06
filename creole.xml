@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+
+<CREOLE-DIRECTORY>
+  <JAR SCAN="true">OnlineTaggerFramework.jar</JAR>
+</CREOLE-DIRECTORY>
